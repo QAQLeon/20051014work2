@@ -3,9 +3,10 @@ body{
 	background-position:left,right,center;
 	background-repeat:no-repeat,no-repeat,no-repeat;
 	background-size:auto,auto,cover;
-	background-attachment:fixed;
-	margin: 0px;
-	z-index: 0;
+	margin:0px;
+	z-index:0;
+	border:20px solid burlywood;
+	height: 100vh;
 	}
 h1  {
 	text-shadow: 4px 4px 10px black;
@@ -20,46 +21,8 @@ p   {
 img	{
 	width: 300px;
 	height:300px;}
-#div1{
-	background-color:burlywood; 
-    height: 100px;
-    width: 100%;
-	position:fixed ;	
-    z-index:1;
-    top:0;
-	}
-#div1 a{	
+a{	
 	color:blue;
 	font-size:30px;
 	text-align:center;
-	z-index: 2;
-	}
-#div2{
-	background-color:burlywood; 
-    height: 100px;
-    width: 100%;
-	position:fixed ;
-	bottom:0;
-	left:0;
-	z-index:1;
-	}
-#div3{background-color:burlywood;
-	top:10%;
-	width:8% ;
-	position:fixed; 
-	height: 100%;
-	left:0;
-	z-index:1;}
-#div3 a{	
-	color:blue;
-	font-size:30px;
-	text-align:center;
-	z-index: 2;
-	}
-#div4{background-color:burlywood;
- 	top:0;
-	width:8% ;
-	position:fixed; 
-	height: 100%;
-	right:0;
-	z-index:1;}	
+	z-index: 2;}
